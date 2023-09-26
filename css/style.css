@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.blur{
+    background-image: url("../resources/tank.jpg");
+    position: relative;
+    background-size: cover;
+    filter: blur(5px);
+    background-position: center;
+    box-sizing: border-box;
+    width: 36em;
+	height: 45em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header{
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 26em;
+	height: 35em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    background-image: url("../resources/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+#tableElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 20px 50px;
+}
